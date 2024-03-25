@@ -4,10 +4,7 @@ import FeaturesDecCard from "./FeaturesDecCard";
 
 const Features = () => {
   return (
-    <section
-      id="features"
-      className="relative z-10 py-18 sm:py-23 xl:py-27.5"
-    >
+    <section id="features" className="relative z-10 py-18 sm:py-23 xl:py-27.5">
       <span className="custom-gradient-3 absolute bottom-0 left-0 -z-10 block h-[418px] w-full"></span>
       <div className="animate_bottom mx-auto max-w-[880px] px-4 text-center sm:px-8 xl:px-0">
         <SectionTitle
