@@ -8,6 +8,7 @@ import Features from "../components/screen/Home/Features/Features";
 import FrontEndToolAll from "../components/screen/Home/FrontEndTools/FrontEndToolAll";
 import HeroPart from "../components/screen/Home/Hero/HeroPart";
 import PowerFullToolKit from "../components/screen/Home/PowerFullToolkit/PowerFullToolKit";
+import ScrollBottom from "../components/shared/ScrollBottom";
 
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
      <AllPageComponent />
      <PowerFullToolKit />
      <DownloadOption />
+     <ScrollBottom />
     </>
   );
 };
