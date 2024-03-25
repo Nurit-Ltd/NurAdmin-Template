@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: "EuclidCircularA";
+  src: url("../../public/font/euclid-circular-a/Euclid\ Circular\ A\ Bold.ttf"),
+    url("../../public/font/euclid-circular-a/Euclid\ Circular\ A\ Light.ttf"),
+    url("../../public/font/euclid-circular-a/Euclid\ Circular\ A\ Medium.ttf"),
+    url("../../public/font/euclid-circular-a/Euclid\ Circular\ A\ Regular.ttf"),
+    url("../../public/font/euclid-circular-a/Euclid\ Circular\ A\ SemiBold.ttf");
+}
+body {
+  /* max-width: 1920px; */
+  margin: 0 auto;
+  position: relative;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  color: #606882;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "EuclidCircularA", sans-serif;
+}
+.scroll-shadow {
+  box-shadow: 0px 5px 10px rgba(13, 10, 44, 0.09);
+}
+
+/* -------------------------------------- */
+.text-custom-lg {
+  font-size: 22px;
+  line-height: 30px;
+}
+
+.custom-gradient-2 {
+  background-image: linear-gradient(
+    180deg,
+    #f3f4f6,
+    rgba(243, 244, 246, 0) 136.6%
+  );
+}
+.text-title-2 {
+  font-size: 48px;
+  line-height: 58px;
+}
+.text-title-3 {
+  font-size: 40px;
+  line-height: 48px;
+}
+.shadow-1 {
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.text-custom-sm {
+  font-size: 14px;
+  line-height: 22px;
+}
+.shadow-5 {
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.sho {
+  --tw-shadow: 0px -18px 38px rgba(85, 106, 235, 0.04),
+    0px 4px 10px rgba(85, 106, 235, 0.04),
+    0px 10px 30px rgba(85, 106, 235, 0.12);
+  --tw-shadow-colored: 0px -18px 38px var(--tw-shadow-color),
+    0px 4px 10px var(--tw-shadow-color), 0px 10px 30px var(--tw-shadow-color);
+}
+.title-6 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.custom-gradient-6 {
+  background-image: linear-gradient(
+    90deg,
+    rgba(229, 231, 235, 0),
+    #e5e7eb 51.28%,
+    rgba(229, 231, 235, 0)
+  );
+}
+
+.custom-gradient-3 {
+  background-image: linear-gradient(180deg, rgba(249, 250, 251, 0), #f9fafb);
+}
+.custom-gradient-5 {
+  background-image: linear-gradient(180deg, #f6faff, rgba(246, 250, 255, 0));
+}
+
+.shadow-9:hover {
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.features-gradient-1 {
+  background-image: linear-gradient(1turn, #593ff8 13.54%, #48dcff 86.98%);
+}
+.features-gradient-2 {
+  background-image: linear-gradient(
+    107.34deg,
+    #3d1dff 11.19%,
+    #6147ff 26.5%,
+    #d451ff 42.89%,
+    #ec458d 62.48%,
+    #ffca8b 79.58%
+  );
+}
+.features-gradient-3 {
+  background-image: linear-gradient(107.34deg, #3d1dff 11.19%, #ffca8b 79.58%);
+}
+.shadow-10 {
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow-2 {
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.shadow,
+.shadow-1 {
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
