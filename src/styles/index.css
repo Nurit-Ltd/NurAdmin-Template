@@ -22,7 +22,7 @@ html {
     url("../../public/font/euclid-circular-a/Euclid\ Circular\ A\ SemiBold.ttf");
 }
 body {
-  /* max-width: 1920px; */
+  max-width: 1920px;
   margin: 0 auto;
   position: relative;
   font-family: "Inter", sans-serif;

@@ -46,8 +46,8 @@ const Navbar = () => {
   const currentPath = window.location.pathname;
 
   return (
-    <nav>
-      <div className="fixed left-0 top-0 z-[999] w-full  bg-white">
+    <nav className="fixed left-0 top-0 right-0 z-[999]">
+      <div className="w-full bg-white max-w-[1920px] mx-auto">
         <div
           className={`w-full h-[64px] xl:h-[80px] px-4 sm:px-8 xl:px-13 flex items-center justify-between gap-7 ${
             scrollPosition && "shadow"
@@ -56,9 +56,10 @@ const Navbar = () => {
         >
           <div className="flex w-full items-center justify-between xl:w-2/12 2xl:w-2/12">
             <a href="/" className="flex gap-3 items-center w-[172px] h-8">
-
               <img src={logo} alt="logo" className="" />
-              <span className="text-28xl font-semibold text-black">NurAdmin</span>
+              <span className="text-28xl font-semibold text-black">
+                NurAdmin
+              </span>
             </a>
           </div>
           <div className="xl:hidden" onClick={() => setShowMenu(!showMenu)}>
