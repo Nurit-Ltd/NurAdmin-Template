@@ -1,5 +1,5 @@
 import { FaDiscord, FaGithub, FaXTwitter } from "react-icons/fa6";
-import footerLogo from "../assets/logo-light-footer.svg";
+import footerLogo from "../assets/nur-logo.svg";
 
 export const useFullLinkData = [
   {

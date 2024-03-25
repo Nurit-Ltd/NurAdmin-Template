@@ -55,10 +55,10 @@ const Navbar = () => {
           style={{ height: `${navHeight}px` }}
         >
           <div className="flex w-full items-center justify-between xl:w-2/12 2xl:w-2/12">
-            <a href="/" className="flex gap-4 items-center w-[172px] h-8">
+            <a href="/" className="flex gap-3 items-center w-[172px] h-8">
 
               <img src={logo} alt="logo" className="" />
-              <span className="text-2xl font-semibold text-black">NurAdmin</span>
+              <span className="text-28xl font-semibold text-black">NurAdmin</span>
             </a>
           </div>
           <div className="xl:hidden" onClick={() => setShowMenu(!showMenu)}>
