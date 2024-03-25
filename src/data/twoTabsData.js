@@ -5,8 +5,8 @@ import { FiCodesandbox } from "react-icons/fi";
 import { SiNextdotjs } from "react-icons/si";
 export const twoTabsData = [
   {
-    basicTitle: "TailAdmin Free",
-    premiumTitle: "TailAdmin Pro",
+    basicTitle: "NurAdmin Free",
+    premiumTitle: "NurAdmin Pro",
     icon: FaHtml5,
     downloadTitle: "Free Download - HTML",
     basic: [
@@ -19,13 +19,13 @@ export const twoTabsData = [
         valid: "errorIcon",
         content: "01 Dashboard Variation",
         tooltip:
-          "TailAdmin Pro version includes more pages, components, and dashboard",
+          "NurAdmin Pro version includes more pages, components, and dashboard",
       },
       {
         valid: "errorIcon",
         content: "15+ HTML Files",
         tooltip:
-          "TailAdmin Pro version includes more pages, components, and dashboard",
+          "NurAdmin Pro version includes more pages, components, and dashboard",
       },
       {
         valid: "tickIcon",
@@ -91,8 +91,8 @@ export const twoTabsData = [
     ],
   },
   {
-    basicTitle: "TailAdmin React - Free",
-    premiumTitle: "TailAdmin React - Pro",
+    basicTitle: "NurAdmin React - Free",
+    premiumTitle: "NurAdmin React - Pro",
     icon: FaReact,
     downloadTitle: "Free Download - React",
     basic: [
@@ -104,13 +104,13 @@ export const twoTabsData = [
         valid: "errorIcon",
         content: "01 Dashboard Variation",
         tooltip:
-          "TailAdmin Pro version includes more pages, components, and dashboard",
+          "NurAdmin Pro version includes more pages, components, and dashboard",
       },
       {
         valid: "errorIcon",
         content: "15+ HTML Files",
         tooltip:
-          "TailAdmin Pro version includes more pages, components, and dashboard",
+          "NurAdmin Pro version includes more pages, components, and dashboard",
       },
       {
         valid: "tickIcon",
@@ -176,8 +176,8 @@ export const twoTabsData = [
     ],
   },
   {
-    basicTitle: "TailAdmin Next.js - Free",
-    premiumTitle: "TailAdmin Next.js - Pro",
+    basicTitle: "NurAdmin Next.js - Free",
+    premiumTitle: "NurAdmin Next.js - Pro",
     icon: SiNextdotjs,
     downloadTitle: "Free Download - Next.js",
     basic: [
@@ -189,13 +189,13 @@ export const twoTabsData = [
         valid: "errorIcon",
         content: "01 Dashboard Variation",
         tooltip:
-          "TailAdmin Pro version includes more pages, components, and dashboard",
+          "NurAdmin Pro version includes more pages, components, and dashboard",
       },
       {
         valid: "errorIcon",
         content: "15+ HTML Files",
         tooltip:
-          "TailAdmin Pro version includes more pages, components, and dashboard",
+          "NurAdmin Pro version includes more pages, components, and dashboard",
       },
       {
         valid: "tickIcon",
@@ -261,8 +261,8 @@ export const twoTabsData = [
     ],
   },
   {
-    basicTitle: "TailAdmin Vue.js - Free",
-    premiumTitle: "TailAdmin Vue.js - Pro",
+    basicTitle: "NurAdmin Vue.js - Free",
+    premiumTitle: "NurAdmin Vue.js - Pro",
     icon: FaVuejs,
     downloadTitle: "Free Download - Vue",
 
@@ -275,13 +275,13 @@ export const twoTabsData = [
         valid: "errorIcon",
         content: "01 Dashboard Variation",
         tooltip:
-          "TailAdmin Pro version includes more pages, components, and dashboard",
+          "NurAdmin Pro version includes more pages, components, and dashboard",
       },
       {
         valid: "errorIcon",
         content: "15+ HTML Files",
         tooltip:
-          "TailAdmin Pro version includes more pages, components, and dashboard",
+          "NurAdmin Pro version includes more pages, components, and dashboard",
       },
       {
         valid: "tickIcon",
@@ -347,8 +347,8 @@ export const twoTabsData = [
     ],
   },
   {
-    basicTitle: "TailAdmin Free - Bundle",
-    premiumTitle: "TailAdmin Pro - Bundle",
+    basicTitle: "NurAdmin Free - Bundle",
+    premiumTitle: "NurAdmin Pro - Bundle",
     icon: FiCodesandbox,
     downloadTitle: "Free Download - Bundle",
     basic: [
@@ -360,7 +360,7 @@ export const twoTabsData = [
         valid: "errorIcon",
         content: "01 Dashboard Variation",
         tooltip:
-          "TailAdmin Pro version includes more pages, components, and dashboard",
+          "NurAdmin Pro version includes more pages, components, and dashboard",
       },
       
       {

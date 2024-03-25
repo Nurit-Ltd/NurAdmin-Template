@@ -8,7 +8,7 @@ const Download = () => {
         {/* title */}
         <div className="animate_bottom text-center">
           <h1 className="mb-2.5 text-3xl font-bold text-secondary sm:text-40xl sm:leading-48 xl:text-44xl xl:leading-60">
-            Download TailAdmin Now
+            Download NurAdmin Now
           </h1>
           <p className="md:text-lg">
             Select your preferred option below to start Download and Kickstart

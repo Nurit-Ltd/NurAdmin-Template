@@ -12,7 +12,7 @@ const DownloadOption = () => {
                 What are you waiting for?
               </h2>
               <p className="mt-3 text-lg">
-                Download TailAdmin for Free – Transform Your Web Projects Now!
+                Download NurAdmin for Free – Transform Your Web Projects Now!
               </p>
             </div>
             <div className="sm:text-right">

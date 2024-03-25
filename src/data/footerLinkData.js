@@ -50,7 +50,7 @@ export const footerAboutData = {
   logoUrl: footerLogo,
   description:
     "Free and Open-Source Tailwind CSS Admin Dashboard Template, now available for - HTML, React, Next.js and Vue",
-  copyright: "© 2024 TailAdmin - All Rights Reserved.",
+  copyright: "© 2024 NurAdmin - All Rights Reserved.",
   subLogoUrl: "path_to_sub_logo",
   socialLinks: [
     { icon: FaDiscord, url: "#" },

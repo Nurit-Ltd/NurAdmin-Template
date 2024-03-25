@@ -4,7 +4,6 @@ import DownloadSvg from "../../../../common/DownloadSvg";
 import { tools } from "../../../../data/heroTools";
 
 const HeroPartOne = () => {
-  
   return (
     <div className="mx-auto max-w-[55.625rem] px-4 sm:px-8 xl:px-0">
       <div className="animate_bottom text-center">
@@ -20,7 +19,7 @@ const HeroPartOne = () => {
           <span className="text-primary"> Admin Dashboard Template</span>
         </h1>
         <p className="mb-8.5 md:text-lg">
-          TailAdmin is a Tailwind CSS-based Admin Dashboard Template that
+          NurAdmin is a Tailwind CSS-based Admin Dashboard Template that
           provides developers with everything they need to create feature-rich
           back-ends, dashboards, and admin panels for web projects. Empowering
           developers with essential UI components, elements, and pages required

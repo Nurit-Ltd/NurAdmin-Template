@@ -27,13 +27,13 @@ export const featuresData = [
     icon: BiSolidMouse ,
     title: "Easy to Customize and Use",
     description:
-      "TailAdmin ensures easy customization for your HTML, React, Next.js, and Vue projects. Follow our comprehensive documentation and leverage Tailwind CSS utility classes to achieve your desired results.",
+      "NurAdmin ensures easy customization for your HTML, React, Next.js, and Vue projects. Follow our comprehensive documentation and leverage Tailwind CSS utility classes to achieve your desired results.",
   },
   {
     icon: GrDocumentUpdate ,
     title: "Lifetime Free Updates",
     description:
-      "Take your project to the next level with TailAdmin's lifetime Free updates. Access new features and improvements without any extra cost – because innovation should never have a price tag.",
+      "Take your project to the next level with NurAdmin's lifetime Free updates. Access new features and improvements without any extra cost – because innovation should never have a price tag.",
   },
   {
     icon: BiSolidMessageRoundedDots ,
