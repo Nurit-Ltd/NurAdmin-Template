@@ -1,5 +1,5 @@
 import { FaDiscord, FaGithub, FaXTwitter } from "react-icons/fa6";
-import footerLogo from "../assets/nur-logo.svg";
+import { default as footerLogo, default as nurITLogo } from "../assets/nur-logo.svg";
 
 export const useFullLinkData = [
   {
@@ -51,7 +51,7 @@ export const footerAboutData = {
   description:
     "Free and Open-Source Tailwind CSS Admin Dashboard Template, now available for - HTML, React, Next.js and Vue",
   copyright: "© 2024 NurAdmin - All Rights Reserved.",
-  subLogoUrl: "path_to_sub_logo",
+  subLogoUrl: nurITLogo,
   socialLinks: [
     { icon: FaDiscord, url: "#" },
     { icon: FaXTwitter, url: "#" },

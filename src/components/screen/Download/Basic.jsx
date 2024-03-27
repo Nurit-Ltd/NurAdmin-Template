@@ -40,7 +40,7 @@ const Basic = ({ basic, basicTitle, icon, downloadTitle }) => {
                 </span>
 
                 {item.valid === "errorIcon" && (
-                  <span className="absolute -top-[72px] left-1/2 z-10 hidden w-[188px] -translate-x-1/2 rounded-md bg-secondary px-3.5 py-2 text-center text-xs text-white group-hover:block">
+                  <span className="absolute -top-[88px] left-1/2 z-10 hidden w-[188px] -translate-x-1/2 rounded-md bg-secondary px-3.5 py-2 text-center text-xs text-white group-hover:block">
                     {item.tooltip}
                     <span className="absolute -bottom-[7px] left-0 right-0 mx-auto flex justify-center pr-2 text-secondary">
                       <DimondSvg />
