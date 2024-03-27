@@ -19,8 +19,9 @@ To run NurAdmin locally, follow these steps:
 1. Clone the repository:
 
 ```bash
-https://github.com/Nurit-Ltd/NurAdmin-Landing-Page.git
-cd NurAdmin-Landing-Page
+
+$ npm install --save @github/https://github.com/Nurit-Ltd/NurAdmin-Landing-Page.git
+
 ```
 
 2. Install dependencies:
