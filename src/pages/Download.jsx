@@ -1,4 +1,4 @@
-import AllTabs from "../components/screen/DownloadPage/AllTabs";
+import AllTabs from "../components/screen/Download/AllTabs";
 
 const Download = () => {
   return (

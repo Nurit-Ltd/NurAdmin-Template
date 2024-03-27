@@ -1,4 +1,4 @@
-import FormSupport from "../components/screen/SupportPage/FormSupport";
+import FormSupport from "../components/screen/Support/FormSupport";
 
 const Support = () => {
   return (
