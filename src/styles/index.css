@@ -15,11 +15,11 @@ html {
 }
 @font-face {
   font-family: "EuclidCircularA";
-  src: url("../../public/font/euclid-circular-a/Euclid\ Circular\ A\ Bold.ttf"),
-    url("../../public/font/euclid-circular-a/Euclid\ Circular\ A\ Light.ttf"),
-    url("../../public/font/euclid-circular-a/Euclid\ Circular\ A\ Medium.ttf"),
-    url("../../public/font/euclid-circular-a/Euclid\ Circular\ A\ Regular.ttf"),
-    url("../../public/font/euclid-circular-a/Euclid\ Circular\ A\ SemiBold.ttf");
+  src: url("/font/euclid-circular-a/Euclid\ Circular\ A\ Bold.ttf"),
+    url("/font/euclid-circular-a/Euclid\ Circular\ A\ Light.ttf"),
+    url("/font/euclid-circular-a/Euclid\ Circular\ A\ Medium.ttf"),
+    url("/font/euclid-circular-a/Euclid\ Circular\ A\ Regular.ttf"),
+    url("/font/euclid-circular-a/Euclid\ Circular\ A\ SemiBold.ttf");
 }
 body {
   max-width: 1920px;

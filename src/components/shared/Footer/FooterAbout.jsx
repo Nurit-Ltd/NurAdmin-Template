@@ -5,7 +5,7 @@ const FooterAbout = () => {
   const { logoUrl, description, copyright, subLogoUrl, socialLinks } =
     footerAboutData;
   return (
-    <div className="max-w-[25rem]">
+    <div className="max-w-[400px]">
       <div>
         <a
           href="/"
