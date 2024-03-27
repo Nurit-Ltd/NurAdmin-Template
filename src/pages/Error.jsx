@@ -4,7 +4,7 @@ import ErrorOneSvg from "../common/ErrorOneSvg";
 const Error = () => {
   return (
     <section className="relative z-10 flex min-h-screen items-center justify-center overflow-hidden pb-20 pt-40 lg:pb-25 lg:pt-45 xl:pb-30 xl:pt-50">
-      <div className="">
+      <div>
         <div className="animate_bottom mx-auto w-full max-w-[570px] text-center">
           <span className="text-[100px] font-extrabold leading-normal text-secondary sm:text-[150px]">
             404

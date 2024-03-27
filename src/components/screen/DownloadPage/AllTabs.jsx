@@ -4,7 +4,7 @@ import { FaHtml5, FaVuejs } from "react-icons/fa";
 import { FaReact } from "react-icons/fa6";
 import { FiCodesandbox } from "react-icons/fi";
 import { SiNextdotjs } from "react-icons/si";
-import { twoTabsData } from "../../../data/twoTabsData";
+import { basicPremiumData } from "../../../data/basicPremiumData";
 import TwoPartsTabs from "./TwoPartsTabs";
 
 const AllTabs = () => {
@@ -60,35 +60,35 @@ const AllTabs = () => {
       
         {activeTab === 0 && (
           <div>
-            {twoTabsData.slice(0, 1).map((bAndP, index) => (
+            {basicPremiumData.slice(0, 1).map((bAndP, index) => (
               <TwoPartsTabs key={index} bAndP={bAndP} />
             ))}
           </div>
         )}
         {activeTab === 1 && (
           <div>
-            {twoTabsData.slice(1, 2).map((bAndP, index) => (
+            {basicPremiumData.slice(1, 2).map((bAndP, index) => (
               <TwoPartsTabs key={index} bAndP={bAndP} />
             ))}
           </div>
         )}
         {activeTab === 2 && (
           <div>
-            {twoTabsData.slice(2, 3).map((bAndP, index) => (
+            {basicPremiumData.slice(2, 3).map((bAndP, index) => (
               <TwoPartsTabs key={index} bAndP={bAndP} />
             ))}
           </div>
         )}
         {activeTab === 3 && (
           <div>
-            {twoTabsData.slice(3, 4).map((bAndP, index) => (
+            {basicPremiumData.slice(3, 4).map((bAndP, index) => (
               <TwoPartsTabs key={index} bAndP={bAndP} />
             ))}
           </div>
         )}
         {activeTab === 4 && (
           <div>
-            {twoTabsData.slice(4, 5).map((bAndP, index) => (
+            {basicPremiumData.slice(4, 5).map((bAndP, index) => (
               <TwoPartsTabs key={index} bAndP={bAndP} />
             ))}
           </div>

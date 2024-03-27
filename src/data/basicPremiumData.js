@@ -3,7 +3,7 @@ import { FaHtml5, FaVuejs } from "react-icons/fa";
 import { FaReact } from "react-icons/fa6";
 import { FiCodesandbox } from "react-icons/fi";
 import { SiNextdotjs } from "react-icons/si";
-export const twoTabsData = [
+export const basicPremiumData = [
   {
     basicTitle: "NurAdmin Free",
     premiumTitle: "NurAdmin Pro",

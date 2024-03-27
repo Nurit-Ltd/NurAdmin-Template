@@ -61,28 +61,10 @@ h5 {
   font-size: 40px;
   line-height: 48px;
 }
-.shadow-1 {
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
+
 .text-custom-sm {
   font-size: 14px;
   line-height: 22px;
-}
-.shadow-5 {
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-.sho {
-  --tw-shadow: 0px -18px 38px rgba(85, 106, 235, 0.04),
-    0px 4px 10px rgba(85, 106, 235, 0.04),
-    0px 10px 30px rgba(85, 106, 235, 0.12);
-  --tw-shadow-colored: 0px -18px 38px var(--tw-shadow-color),
-    0px 4px 10px var(--tw-shadow-color), 0px 10px 30px var(--tw-shadow-color);
-}
-.title-6 {
-  font-size: 24px;
-  line-height: 30px;
 }
 
 .custom-gradient-6 {
@@ -101,10 +83,6 @@ h5 {
   background-image: linear-gradient(180deg, #f6faff, rgba(246, 250, 255, 0));
 }
 
-.shadow-9:hover {
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
 .features-gradient-1 {
   background-image: linear-gradient(1turn, #593ff8 13.54%, #48dcff 86.98%);
 }
@@ -120,17 +98,4 @@ h5 {
 }
 .features-gradient-3 {
   background-image: linear-gradient(107.34deg, #3d1dff 11.19%, #ffca8b 79.58%);
-}
-.shadow-10 {
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-.shadow-2 {
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-.shadow,
-.shadow-1 {
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
-    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }

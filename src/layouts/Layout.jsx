@@ -5,7 +5,7 @@ import Navbar from "../components/shared/Navbar/Navbar";
 
 const Layout = () => {
   return (
-    <div>
+    <>
       <header>
         <Navbar />
       </header>
@@ -20,7 +20,7 @@ const Layout = () => {
       <footer>
          <Footer />
       </footer>
-    </div>
+    </>
   );
 };
 
