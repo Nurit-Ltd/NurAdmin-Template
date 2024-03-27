@@ -1,6 +1,6 @@
 import { FaAward } from "react-icons/fa6";
 import { IoMdEye } from "react-icons/io";
-import DownloadSvg from "../../../../common/DownloadSvg";
+import DownloadSvg from "../../../../components/common/DownloadSvg";
 import { tools } from "../../../../data/heroTools";
 
 const HeroPartOne = () => {

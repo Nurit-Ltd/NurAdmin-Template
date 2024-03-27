@@ -1,7 +1,7 @@
-import NextSvg from "../common/ToolsAndTechSvg/NextSvg";
-import TechHtmlSvg from "../common/ToolsAndTechSvg/TechHtmlSvg";
-import TechReactSvg from "../common/ToolsAndTechSvg/TechReactSvg";
-import TechVue from "../common/ToolsAndTechSvg/TechVue";
+import NextSvg from "../components/common/ToolsAndTechSvg/NextSvg";
+import TechHtmlSvg from "../components/common/ToolsAndTechSvg/TechHtmlSvg";
+import TechReactSvg from "../components/common/ToolsAndTechSvg/TechReactSvg";
+import TechVue from "../components/common/ToolsAndTechSvg/TechVue";
 
 export const frontEndToolAll =[
   {

@@ -1,5 +1,5 @@
-import PluginsBlurSvg from "../../../../common/PluginsBlurSvg";
-import PluginsSvg from "../../../../common/PluginsSvg";
+import PluginsBlurSvg from "../../../../components/common/PluginsBlurSvg";
+import PluginsSvg from "../../../../components/common/PluginsSvg";
 import SectionTitle from "../../../shared/SectionTitle";
 import PluginsCard from "./PluginsCard";
 

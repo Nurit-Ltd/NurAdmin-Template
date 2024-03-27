@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import DownloadSvg from "../../../common/DownloadSvg";
+import DownloadSvg from "../../../components/common/DownloadSvg";
 
 const DownloadOption = () => {
   return (

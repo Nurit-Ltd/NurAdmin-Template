@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import ErrorOneSvg from "../common/ErrorOneSvg";
+import ErrorOneSvg from "../components/common/ErrorOneSvg";
 
 const Error = () => {
   return (

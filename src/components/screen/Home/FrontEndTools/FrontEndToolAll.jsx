@@ -1,6 +1,6 @@
 import { BsArrowRight } from "react-icons/bs";
-import DotsSvg from "../../../../common/DotsSvg";
-import MessengerSvg from "../../../../common/ToolsAndTechSvg/MessengerSvg";
+import DotsSvg from "../../../../components/common/DotsSvg";
+import MessengerSvg from "../../../../components/common/ToolsAndTechSvg/MessengerSvg";
 import { frontEndToolAll } from "../../../../data/frontEndToolAll";
 import SectionTitle from "../../../shared/SectionTitle";
 

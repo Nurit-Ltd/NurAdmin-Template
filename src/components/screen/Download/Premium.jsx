@@ -1,6 +1,6 @@
 import { FaCrown } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import TickMarkSvg from "../../../common/TickMarkSvg";
+import TickMarkSvg from "../../../components/common/TickMarkSvg";
 
 const Premium = ({ premium,premiumTitle }) => {
   return (

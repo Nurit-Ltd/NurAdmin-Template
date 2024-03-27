@@ -1,12 +1,12 @@
 import { IoLogoFigma } from "react-icons/io5";
-import CodeFileSvg from "../common/Features/CodeFileSvg";
-import CrossSvg from "../common/Features/CrossSvg";
-import CustomizedSvg from "../common/Features/CustomizedSvg";
-import DarkSvg from "../common/Features/DarkSvg";
-import DocumentationSvg from "../common/Features/DocumentationSvg";
-import MultiFreSvg from "../common/Features/MultiFreSvg";
-import PerformanceSvg from "../common/Features/PerformanceSvg";
-import ResponSvg from "../common/Features/ResponSvg";
+import CodeFileSvg from "../components/common/Features/CodeFileSvg";
+import CrossSvg from "../components/common/Features/CrossSvg";
+import CustomizedSvg from "../components/common/Features/CustomizedSvg";
+import DarkSvg from "../components/common/Features/DarkSvg";
+import DocumentationSvg from "../components/common/Features/DocumentationSvg";
+import MultiFreSvg from "../components/common/Features/MultiFreSvg";
+import PerformanceSvg from "../components/common/Features/PerformanceSvg";
+import ResponSvg from "../components/common/Features/ResponSvg";
 
 export const featuresDecData = [
   {

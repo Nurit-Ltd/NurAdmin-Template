@@ -1,9 +1,9 @@
 import heroOne from "../../../../assets/images/home/hero-01.webp";
 import heroTwo from "../../../../assets/images/home/hero-02.webp";
 import heroThree from "../../../../assets/images/home/hero-03.webp";
-import BlBoomBigSvg from "../../../../common/BlBoomBigSvg";
-import BlBoomSvg from "../../../../common/BlBoomSvg";
-import BlBoomTwoSvg from "../../../../common/BlBoomTwoSvg";
+import BlBoomBigSvg from "../../../../components/common/BlBoomBigSvg";
+import BlBoomSvg from "../../../../components/common/BlBoomSvg";
+import BlBoomTwoSvg from "../../../../components/common/BlBoomTwoSvg";
 
 const HeroPartTwo = () => {
   return (

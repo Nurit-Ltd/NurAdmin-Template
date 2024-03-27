@@ -1,5 +1,5 @@
-import VariSecondSvg from "../../../../common/VariSecondSvg";
-import VariationSvg from "../../../../common/VariationSvg";
+import VariSecondSvg from "../../../../components/common/VariSecondSvg";
+import VariationSvg from "../../../../components/common/VariationSvg";
 import SectionTitle from "../../../shared/SectionTitle";
 import VariationCard from "./VariationCard";
 

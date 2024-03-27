@@ -1,9 +1,9 @@
 import { FaStar } from "react-icons/fa";
 import { HiMiniGiftTop } from "react-icons/hi2";
-import CrossSvg from "../../../common/CrossSvg";
-import DimondSvg from "../../../common/DimondSvg";
-import ErrorIconSvg from "../../../common/ErrorIconSvg";
-import TickMarkSvg from "../../../common/TickMarkSvg";
+import CrossSvg from "../../../components/common/CrossSvg";
+import DimondSvg from "../../../components/common/DimondSvg";
+import ErrorIconSvg from "../../../components/common/ErrorIconSvg";
+import TickMarkSvg from "../../../components/common/TickMarkSvg";
 
 const Basic = ({ basic, basicTitle, icon, downloadTitle }) => {
   const IconComponent = icon;

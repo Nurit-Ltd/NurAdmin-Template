@@ -1,4 +1,4 @@
-import FooterSubLogoSvg from "../../../common/FooterSubLogoSvg";
+import FooterSubLogoSvg from "../../../components/common/FooterSubLogoSvg";
 import { footerAboutData } from "../../../data/footerLinkData";
 
 const FooterAbout = () => {

@@ -1,14 +1,15 @@
 // import { IoLogoFigma } from "react-icons/io5";
 import { SiNextdotjs } from "react-icons/si";
 
-import FigmaSvg from "../common/ToolsAndTechSvg/FigmaSvg";
-import MessengerSvg from "../common/ToolsAndTechSvg/MessengerSvg";
-import TechAlpineSvg from "../common/ToolsAndTechSvg/TechAlpineSvg";
-import TechHtmlSvg from "../common/ToolsAndTechSvg/TechHtmlSvg";
-import TechJavaScSvg from "../common/ToolsAndTechSvg/TechJavaScSvg";
-import TechReactSvg from "../common/ToolsAndTechSvg/TechReactSvg";
-import TechVue from "../common/ToolsAndTechSvg/TechVue";
-import TechWebSvg from "../common/ToolsAndTechSvg/TechWebSvg";
+import FigmaSvg from "../components/common/ToolsAndTechSvg/FigmaSvg";
+import MessengerSvg from "../components/common/ToolsAndTechSvg/MessengerSvg";
+import TechAlpineSvg from "../components/common/ToolsAndTechSvg/TechAlpineSvg";
+import TechHtmlSvg from "../components/common/ToolsAndTechSvg/TechHtmlSvg";
+import TechJavaScSvg from "../components/common/ToolsAndTechSvg/TechJavaScSvg";
+import TechReactSvg from "../components/common/ToolsAndTechSvg/TechReactSvg";
+import TechVue from "../components/common/ToolsAndTechSvg/TechVue";
+import TechWebSvg from "../components/common/ToolsAndTechSvg/TechWebSvg";
+
 
 
 export const  tools = [

@@ -1,7 +1,7 @@
-import HtmlSvg from "../common/HtmlSvg";
-import NextSvg from "../common/NextSvg";
-import ReactSvg from "../common/ReactSvg";
-import VueSvg from "../common/VueSvg";
+import HtmlSvg from "../components/common/HtmlSvg";
+import NextSvg from "../components/common/NextSvg";
+import ReactSvg from "../components/common/ReactSvg";
+import VueSvg from "../components/common/VueSvg";
 
 
 export const dropDownItem = [
