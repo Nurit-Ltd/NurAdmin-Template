@@ -8,7 +8,7 @@ import TickMarkSvg from "../../../components/common/TickMarkSvg";
 const Basic = ({ basic, basicTitle, icon, downloadTitle }) => {
   const IconComponent = icon;
   return (
-    <div className="relative rounded-[15px] shadow-2 duration-300  border border-garyBorder">
+    <div data-aos="zoom-in-right" className="relative rounded-[15px] shadow-2 duration-300  border border-garyBorder">
       <div className="h-full w-full rounded-xl bg-white p-4 sm:p-8 xl:p-10">
         <div className="mb-7.5 flex items-center gap-5">
           <div className="flex aspect-square w-full max-w-[72px] items-center justify-center rounded-3xl bg-grayBorderVar text-secondary">

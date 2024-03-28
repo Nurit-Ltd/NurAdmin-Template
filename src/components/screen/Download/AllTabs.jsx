@@ -11,25 +11,47 @@ const AllTabs = () => {
   const [activeTab, setActiveTab] = useState(0);
 
   const tabs = [
-    { name: "HTML", icon: <FaHtml5 />, Color: "text-activeYell", bgColor: "bg-activeYell" },
-    { name: "React", icon: <FaReact />, Color: "text-blueReact" , bgColor: "bg-gradient-to-r from-[#47ccf0] to-[#58d4f6]" },
-    { name: "Next.js", icon: <SiNextdotjs />, Color: "text-black", bgColor: "bg-black" },
-    { name: "Vue.js", icon: <FaVuejs />, Color: "text-VueColor", bgColor: "bg-vueBg" },
+    {
+      name: "HTML",
+      icon: <FaHtml5 />,
+      Color: "text-activeYell",
+      bgColor: "bg-activeYell",
+    },
+    {
+      name: "React",
+      icon: <FaReact />,
+      Color: "text-blueReact",
+      bgColor: "bg-gradient-to-r from-[#47ccf0] to-[#58d4f6]",
+    },
+    {
+      name: "Next.js",
+      icon: <SiNextdotjs />,
+      Color: "text-black",
+      bgColor: "bg-black",
+    },
+    {
+      name: "Vue.js",
+      icon: <FaVuejs />,
+      Color: "text-VueColor",
+      bgColor: "bg-vueBg",
+    },
     {
       name: "All Together - Bundle",
       icon: <FiCodesandbox />,
-      Color: "text-boxBlue", bgColor: "bg-boxBg"
+      Color: "text-boxBlue",
+      bgColor: "bg-boxBg",
     },
   ];
   return (
     <div>
       <div className="mt-10 flex w-full justify-center lg:mt-16">
-        <div className="relative inline-flex flex-wrap items-center justify-center gap-3 rounded-lg bg-bgDownload p-2">
+        <div data-aos="zoom-in" className="relative inline-flex flex-wrap items-center justify-center gap-3 rounded-lg bg-bgDownload p-2">
           <div className="absolute -top-10 right-10 hidden lg:block">
             {/* <BestValueSvg /> */}
           </div>
           {tabs.map((tab, index) => (
             <button
+              
               key={index}
               className={`inline-flex h-[40px] items-center gap-3 rounded-lg px-[18px] font-semibold outline-none ${
                 activeTab === index
@@ -57,45 +79,41 @@ const AllTabs = () => {
         </div>
       </div>
 
-      
-        {activeTab === 0 && (
-          <div>
-            {basicPremiumData.slice(0, 1).map((bAndP, index) => (
-              <TwoPartsTabs key={index} bAndP={bAndP} />
-            ))}
-          </div>
-        )}
-        {activeTab === 1 && (
-          <div>
-            {basicPremiumData.slice(1, 2).map((bAndP, index) => (
-              <TwoPartsTabs key={index} bAndP={bAndP} />
-            ))}
-          </div>
-        )}
-        {activeTab === 2 && (
-          <div>
-            {basicPremiumData.slice(2, 3).map((bAndP, index) => (
-              <TwoPartsTabs key={index} bAndP={bAndP} />
-            ))}
-          </div>
-        )}
-        {activeTab === 3 && (
-          <div>
-            {basicPremiumData.slice(3, 4).map((bAndP, index) => (
-              <TwoPartsTabs key={index} bAndP={bAndP} />
-            ))}
-          </div>
-        )}
-        {activeTab === 4 && (
-          <div>
-            {basicPremiumData.slice(4, 5).map((bAndP, index) => (
-              <TwoPartsTabs key={index} bAndP={bAndP} />
-            ))}
-          </div>
-        )}
-
-    
-      
+      {activeTab === 0 && (
+        <div>
+          {basicPremiumData.slice(0, 1).map((bAndP, index) => (
+            <TwoPartsTabs key={index} bAndP={bAndP} />
+          ))}
+        </div>
+      )}
+      {activeTab === 1 && (
+        <div>
+          {basicPremiumData.slice(1, 2).map((bAndP, index) => (
+            <TwoPartsTabs key={index} bAndP={bAndP} />
+          ))}
+        </div>
+      )}
+      {activeTab === 2 && (
+        <div>
+          {basicPremiumData.slice(2, 3).map((bAndP, index) => (
+            <TwoPartsTabs key={index} bAndP={bAndP} />
+          ))}
+        </div>
+      )}
+      {activeTab === 3 && (
+        <div>
+          {basicPremiumData.slice(3, 4).map((bAndP, index) => (
+            <TwoPartsTabs key={index} bAndP={bAndP} />
+          ))}
+        </div>
+      )}
+      {activeTab === 4 && (
+        <div>
+          {basicPremiumData.slice(4, 5).map((bAndP, index) => (
+            <TwoPartsTabs key={index} bAndP={bAndP} />
+          ))}
+        </div>
+      )}
     </div>
   );
 };
