@@ -3,12 +3,12 @@ import { bestApps } from "../../../data/bestApp";
 const BestApp = () => {
   return (
     <section className="relative bg-white px-4 py-18 sm:px-8 sm:py-23 xl:px-0 xl:py-27.5">
-      <h2 className="animate_bottom text-center text-3xl font-semibold text-secondary  sm:text-4xl">
+      <h2 data-aos="fade-left" className="animate_bottom text-center text-3xl font-semibold text-secondary  sm:text-4xl">
         Chosen by the Best and Empowering Thousands of Apps
         <span className="mx-auto mt-7.5 block h-[3px] w-full max-w-[70px] bg-garyBorder"></span>
       </h2>
       <div className="mt-15 xl:mt-20">
-        <div className="animate_bottom flex flex-wrap items-center justify-center gap-4 sm:gap-8 lg:gap-10 xl:gap-14">
+        <div data-aos="flip-left" className="animate_bottom flex flex-wrap items-center justify-center gap-4 sm:gap-8 lg:gap-10 xl:gap-14">
           {bestApps.map((app) => (
             <a
               key={app.id}

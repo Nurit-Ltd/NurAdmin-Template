@@ -5,7 +5,11 @@ import { tools } from "../../../../data/heroTools";
 
 const HeroPartOne = () => {
   return (
-    <div className="mx-auto max-w-[55.625rem] px-4 sm:px-8 xl:px-0">
+    <div
+      data-aos="fade-up"
+      data-aos-anchor-placement="top-bottom"
+      className="mx-auto max-w-[55.625rem] px-4 sm:px-8 xl:px-0"
+    >
       <div className="animate_bottom text-center">
         <div className="mb-4.5 inline-flex items-center justify-center gap-3 rounded-3xl bg-primary/5 px-3 py-1.5 text-lg font-semibold text-primary">
           <span>
@@ -30,7 +34,13 @@ const HeroPartOne = () => {
           <p className="mb-5 text-base font-medium text-secondary opacity-100">
             Built with and Available for your favorite Tools and Technology
           </p>
-          <ul className="flex flex-wrap items-center justify-center gap-4">
+          <ul
+            data-aos="fade-left"
+            data-aos-anchor="#example-anchor"
+            data-aos-offset="500"
+            data-aos-duration="500"
+            className="flex flex-wrap items-center justify-center gap-4"
+          >
             {tools.map((tool, index) => (
               <li key={index}>
                 <p className="group relative flex h-[60px] w-[60px] cursor-pointer items-center justify-center rounded-full bg-white shadow-1 opacity-100">

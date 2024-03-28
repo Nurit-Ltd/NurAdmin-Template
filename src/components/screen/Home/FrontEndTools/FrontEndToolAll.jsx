@@ -17,6 +17,9 @@ const FrontEndToolAll = () => {
         <div className="grid gap-[30px] sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
           {frontEndToolAll.map((tool, index) => (
             <div
+              data-aos="fade-up"
+              data-aos-anchor-placement="center-bottom"
+              data-aos-duration="1000"
               key={index}
               className="rounded-2xl border border-garyBorder bg-white px-6 py-13 shadow-[0px_20px_80px_0px_rgba(9,14,34,0.06)] duration-300 hover:shadow-none flex flex-col justify-between"
             >
