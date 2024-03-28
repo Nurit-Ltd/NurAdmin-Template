@@ -28,7 +28,11 @@ const DashBoardVariant = () => {
           {/* right */}
           <div className="-mx-4 flex w-full flex-wrap px-2 xl:w-3/4">
             {allData.imageCard.map((imgData, index) => (
-              <div key={index} className="w-full px-2 sm:w-1/2 lg:w-1/3">
+              <div
+                data-aos="fade-up"
+                key={index}
+                className="w-full px-2 sm:w-1/2 lg:w-1/3"
+              >
                 <Link
                   to={imgData.link}
                   target="_blank"

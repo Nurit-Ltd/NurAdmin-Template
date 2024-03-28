@@ -7,6 +7,7 @@ const VariationCard = () => {
       <div className="grid gap-5 sm:grid-cols-2 sm:gap-[30px] xl:gap-[50px]">
         {variationCardData.map((variation, index) => (
           <div
+            data-aos="fade-up"
             key={index}
             className="animate_bottom rounded-xl bg-white px-4 pb-6 pt-4 text-center shadow-2 duration-300 ease-in hover:shadow-[0px_20px_80px_0px_rgba(9,14,34,0.06)]"
           >

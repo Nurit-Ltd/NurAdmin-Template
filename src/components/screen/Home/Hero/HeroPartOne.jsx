@@ -35,10 +35,7 @@ const HeroPartOne = () => {
             Built with and Available for your favorite Tools and Technology
           </p>
           <ul
-            data-aos="fade-left"
-            data-aos-anchor="#example-anchor"
-            data-aos-offset="500"
-            data-aos-duration="500"
+            data-aos="zoom-in"
             className="flex flex-wrap items-center justify-center gap-4"
           >
             {tools.map((tool, index) => (
