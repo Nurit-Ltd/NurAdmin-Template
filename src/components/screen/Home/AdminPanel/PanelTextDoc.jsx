@@ -2,7 +2,7 @@
 
 const PanelTextDoc = ({subTitle,title,pOneTitle,pTwoTitle,pOneDec,pTwoDec}) => {
   return (
-    <div className="animate_left w-full max-w-[570px]">
+    <div data-aos="fade-up" className="animate_left w-full max-w-[570px]">
         <h4 className="mb-2.5 text-lg font-medium text-primary">
           {subTitle}
         </h4>

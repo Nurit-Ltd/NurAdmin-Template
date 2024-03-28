@@ -17,6 +17,7 @@ const ChartMapDashBoard = () => {
           <div className="w-full max-w-[261px] space-y-4">
             {chartPanel.slice(0, 3).map((chart, index) => (
               <div
+                data-aos="zoom-in-right"
                 key={index}
                 className={`animate_right relative aspect-[${chart.aspectRatio}]`}
               >
@@ -32,6 +33,7 @@ const ChartMapDashBoard = () => {
           <div className="mt-6 w-full max-w-[224px] space-y-4">
             {chartPanel.slice(3).map((chart, index) => (
               <div
+                data-aos="zoom-in-left"
                 key={index}
                 className={`animate_right relative aspect-[${chart.aspectRatio}]`}
               >

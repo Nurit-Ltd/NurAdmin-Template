@@ -8,7 +8,7 @@ const FeaturesDecCard = () => {
           key={index}
           className="animate_bottom  rounded-xl border border-garyBorder bg-white p-7 hover:shadow-[0px_20px_80px_0px_rgba(9,14,34,0.06)]"
         >
-          <div className="flex items-center gap-5">
+          <div data-aos="zoom-in" className="flex items-center gap-5">
             {feature.icon && <feature.icon size={30} className="text-primary" />}
             <h4 className="text-lg font-medium text-secondary xl:text-22xl xl:leading-7.5">
               {feature.title}

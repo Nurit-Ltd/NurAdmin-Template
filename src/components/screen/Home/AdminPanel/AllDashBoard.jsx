@@ -12,6 +12,7 @@ const AllDashBoard = () => {
           <div className="w-full max-w-[261px] space-y-[18px]">
             {allPanelImages.slice(0, 3).map((image, index) => (
               <div
+              data-aos="zoom-in-right"
                 key={index}
                 className={`animate_left relative aspect-[${image.aspectRatio}]`}
               >
@@ -26,6 +27,7 @@ const AllDashBoard = () => {
           <div className="mt-4.5 w-full max-w-[224px] space-y-[18px]">
             {allPanelImages.slice(3).map((image, index) => (
               <div
+              data-aos="zoom-in-left"
                 key={index}
                 className={`animate_left relative aspect-[${image.aspectRatio}]`}
               >

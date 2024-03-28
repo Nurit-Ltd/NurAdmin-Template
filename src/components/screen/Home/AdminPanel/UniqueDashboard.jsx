@@ -16,6 +16,7 @@ const UniqueDashboard = () => {
         <div className="flex w-full flex-wrap gap-x-6 gap-y-[26px]">
           {uniqueDashData.map((admin) => (
             <div
+            data-aos="zoom-in-left"
               key={admin.id}
               className={`animate_right w-full max-w-[200px] xl:max-w-[248px] ${
                 admin.id === 3 ? "mt-[-1.625rem]" : ""
