@@ -1,6 +1,6 @@
 const FormSupport = () => {
   return (
-    <div className="animate_bottom  mt-13 rounded-xl border border-garyBorder bg-white p-4 shadow-md sm:p-8 lg:p-13">
+    <div data-aos="fade-up" className="animate_bottom  mt-13 rounded-xl border border-garyBorder bg-white p-4 shadow-md sm:p-8 lg:p-13">
       <form action="#">
         <div className="mb-5 flex flex-col gap-5 sm:flex-row sm:gap-9">
           <div className="w-full">
