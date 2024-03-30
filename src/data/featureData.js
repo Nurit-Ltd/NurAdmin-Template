@@ -1,4 +1,3 @@
-// featuresData.js
 import { BiSolidDashboard, BiSolidMessageRoundedDots, BiSolidMouse } from "react-icons/bi";
 import { GrDocumentUpdate } from "react-icons/gr";
 import { MdSpaceDashboard } from "react-icons/md";

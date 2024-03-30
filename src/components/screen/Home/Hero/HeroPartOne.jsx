@@ -8,7 +8,7 @@ const HeroPartOne = () => {
     <div
       data-aos="fade-up"
       data-aos-anchor-placement="top-bottom"
-      className="mx-auto max-w-[55.625rem] px-4 sm:px-8 xl:px-0"
+      className="mx-auto max-w-[890px] px-4 sm:px-8 xl:px-0"
     >
       <div className="animate_bottom text-center">
         <div className="mb-4.5 inline-flex items-center justify-center gap-3 rounded-3xl bg-primary/5 px-3 py-1.5 text-lg font-semibold text-primary">
@@ -22,14 +22,14 @@ const HeroPartOne = () => {
           Open-Source Tailwind CSS
           <span className="text-primary"> Admin Dashboard Template</span>
         </h1>
-        <p className="mb-8.5 md:text-lg">
-          NurAdmin is a Tailwind CSS-based Admin Dashboard Template that
+        <div className="mb-8.5 md:text-lg">
+          <p>NurAdmin is a Tailwind CSS-based Admin Dashboard Template that
           provides developers with everything they need to create feature-rich
           back-ends, dashboards, and admin panels for web projects. Empowering
           developers with essential UI components, elements, and pages required
           to build a complete Dashboard or Admin panel – Now available for HTML,
-          React, Next.js, and Vue!
-        </p>
+          React, Next.js, and Vue!</p>
+        </div>
         <div>
           <p className="mb-5 text-base font-medium text-secondary opacity-100">
             Built with and Available for your favorite Tools and Technology

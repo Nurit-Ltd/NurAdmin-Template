@@ -1,6 +1,4 @@
-// import { IoLogoFigma } from "react-icons/io5";
 import { SiNextdotjs } from "react-icons/si";
-
 import FigmaSvg from "../components/common/ToolsAndTechSvg/FigmaSvg";
 import MessengerSvg from "../components/common/ToolsAndTechSvg/MessengerSvg";
 import TechAlpineSvg from "../components/common/ToolsAndTechSvg/TechAlpineSvg";
