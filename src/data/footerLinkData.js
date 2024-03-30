@@ -53,8 +53,8 @@ export const footerAboutData = {
   copyright: "© 2024 NurAdmin - All Rights Reserved.",
   subLogoUrl: nurITLogo,
   socialLinks: [
-    { icon: FaDiscord, url: "#", label: "discord" },
-    { icon: FaXTwitter, url: "#", label: "twitter" },
-    { icon: FaGithub, url: "#", label: "github" },
+    { icon: FaDiscord, url: "https://discord.com", label: "discord" },
+    { icon: FaXTwitter, url: "https://twitter.com", label: "twitter" },
+    { icon: FaGithub, url: "https://github.com/", label: "github" },
   ],
 };

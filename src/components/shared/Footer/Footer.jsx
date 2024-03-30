@@ -9,9 +9,9 @@ const Footer = () => {
         <div className="flex flex-wrap gap-10 xl:justify-between">
           <FooterAbout />
           <div className="max-w-[174px] sm:w-auto">
-            <h4 className="mb-7.5 text-custom-lg font-medium text-secondary">
+            <h3 className="mb-7.5 text-custom-lg font-medium text-secondary">
               Useful Links
-            </h4>
+            </h3>
             <ul className="flex flex-col gap-3">
               {useFullLinkData.map((items, index) => (
                 <li key={index}>

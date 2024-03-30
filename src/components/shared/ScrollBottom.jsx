@@ -29,8 +29,8 @@ const ScrollBottom = () => {
   return (
     <div className="fixed bottom-5 z-[999] right-5 hidden lg:block">
       <button
-        
         type="button"
+        aria-label="scroll-button"
         onClick={scrollToTop}
         className={`
           ${isVisible ? "opacity-100" : "opacity-0"}

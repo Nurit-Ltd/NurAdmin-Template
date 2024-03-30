@@ -13,9 +13,9 @@ const DashBoardVariant = () => {
           {/* left */}
           <div className="w-full px-2 xl:w-1/4">
             <div className="mb-8">
-              <h4 className="mb-3.5 text-xl font-semibold text-secondary lg:text-28xl lg:leading-10">
+              <h3 className="mb-3.5 text-xl font-semibold text-secondary lg:text-28xl lg:leading-10">
                 {allData.title}
-              </h4>
+              </h3>
               <div className="flex items-center gap-3">
                 <p className="font-medium">{allData.pOne}</p>
                 <span>

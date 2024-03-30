@@ -1,5 +1,4 @@
 
-import { Link } from "react-router-dom";
 import { footerAboutData } from "../../../data/footerLinkData";
 
 const FooterAbout = () => {
@@ -29,9 +28,9 @@ const FooterAbout = () => {
           <ul className="flex items-center gap-[22px]">
             {socialLinks.map((link, index) => (
               <li key={index}>
-                <Link to={link.url} target="_blank" aria-label={label}>
+                <a href={link.url} target="_blank" aria-label={label}>
                   <link.icon size={18} className="hover:text-secondary" />
-                </Link>
+                </a>
               </li>
             ))}
           </ul>
