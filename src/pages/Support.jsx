@@ -3,7 +3,7 @@ import FormSupport from "../components/screen/Support/FormSupport";
 
 const Support = () => {
   return (
-    <div>
+    <>
       <Helmet>
         <title>Support Template-NurAdmin</title>
         <meta
@@ -29,7 +29,7 @@ const Support = () => {
           <FormSupport />
         </div>
       </section>
-    </div>
+    </>
   );
 };
 

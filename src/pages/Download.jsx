@@ -3,7 +3,7 @@ import AllTabs from "../components/screen/Download/AllTabs";
 
 const Download = () => {
   return (
-    <div>
+    <>
        <Helmet>
         <title>Download Free Tailwind  Admin  Template-NurAdmin</title>
         <meta charSet="utf-8" name="description" content="NurAdmin download page" />
@@ -24,7 +24,7 @@ const Download = () => {
           <AllTabs />
         </div>
       </section>
-    </div>
+    </>
   );
 };
 

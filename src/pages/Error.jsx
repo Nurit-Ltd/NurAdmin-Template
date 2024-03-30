@@ -4,7 +4,7 @@ import ErrorOneSvg from "../components/common/ErrorOneSvg";
 
 const Error = () => {
   return (
-    <div>
+    <>
       <Helmet>
         <title>404 - Page Not Found</title>
         <meta
@@ -42,7 +42,7 @@ const Error = () => {
           <ErrorOneSvg />
         </div>
       </section>
-    </div>
+    </>
   );
 };
 
