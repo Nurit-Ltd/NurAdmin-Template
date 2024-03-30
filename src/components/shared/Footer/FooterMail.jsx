@@ -18,6 +18,7 @@ const FooterMail = () => {
 
             <button
               type="submit"
+              aria-label="submit-mail"
               className="flex h-[46px] w-[46px] max-w-11.5 items-center justify-center rounded-md bg-primary text-white"
             >
               <RiSendPlaneFill size={20} />
