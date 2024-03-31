@@ -1,5 +1,5 @@
-import heroOne from "../../../../assets/images/home/hero-01.webp";
-import heroTwo from "../../../../assets/images/home/hero-02.webp";
+import heroOne from "../../../../assets/images/home/adminLeft.png";
+import heroTwo from "../../../../assets/images/home/adminMiddle.png";
 import heroThree from "../../../../assets/images/home/hero-03.webp";
 import BlBoomBigSvg from "../../../../components/common/BlBoomBigSvg";
 import BlBoomSvg from "../../../../components/common/BlBoomSvg";
@@ -18,7 +18,7 @@ const HeroPartTwo = () => {
           <img
             src={heroOne}
             alt="hero1"
-            className=" w-full h-full object-fill"
+            className="w-full h-full object-fill rounded-tl-xl"
           />
         </div>
         {/* middle image */}
@@ -30,7 +30,7 @@ const HeroPartTwo = () => {
           <img
             src={heroTwo}
             alt="hero2"
-            className=" w-full h-full object-fill"
+            className="w-full h-full object-fill rounded-tl-xl rounded-tr-xl"
           />
         </div>
         {/* right image */}
