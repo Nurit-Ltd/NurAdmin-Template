@@ -19,9 +19,9 @@ const VariationCard = () => {
                   className="w-full h-full object-fill"
                 />
               </div>
-              <div className="absolute bottom-0 left-0 right-0 top-0 m-auto flex h-0 w-0 items-center justify-center rounded-md bg-black/70 opacity-0 duration-300 ease-in group-hover:h-full group-hover:w-full group-hover:opacity-100">
+              <div className="absolute bottom-0 left-0 right-0 top-0 m-auto flex h-0 w-0 items-center justify-center rounded-md bg-secondary/70 opacity-0 duration-300 ease-in group-hover:h-full group-hover:w-full group-hover:opacity-100">
                 <a
-                  href="#"
+                  href="https://nur-admin-dashboard.vercel.app/"
                   target="_blank"
                   className="inline-flex items-center gap-2 rounded-[7px] bg-white px-6 py-3 font-medium text-primary shadow-1 hover:bg-bgVariations"
                 >
