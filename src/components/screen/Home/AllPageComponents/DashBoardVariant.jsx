@@ -38,11 +38,11 @@ const DashBoardVariant = () => {
                   target="_blank"
                   className="animate_bottom group mb-8 block rounded-[20px] p-3 hover:bg-hoverBg"
                 >
-                  <div className="relative w-full aspect-[708/480]">
+                  <div className="relative w-full h-[190px] aspect-[708/480]">
                     <img
                       src={imgData.imageUrl}
                       alt={`variant-${index + 1}`}
-                      className="rounded-[10px] border border-grayBorderVar"
+                      className="rounded-[10px] border border-grayBorderVar w-full h-full object-fill"
                     />
                   </div>
                   <h4 className="mt-4 font-medium text-secondary group-hover:text-primary ">

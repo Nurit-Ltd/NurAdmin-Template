@@ -21,7 +21,7 @@ const FooterAbout = () => {
           <p className="text-sm font-medium">A product by</p>
           <a href="#" className="w-[73px] h-[22px] flex items-center gap-1">
              <img src={subLogoUrl} alt="nur-it-logo" className="w-6 h-6 object-fill" />
-              <span className="text-2xl font-bold text-black">NurIT</span>
+              <span className="text-2xl font-bold text-black">Nurit</span>
           </a>
         </div>
         <div className="mt-9">

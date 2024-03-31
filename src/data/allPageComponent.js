@@ -1,3 +1,8 @@
+import DashVarOne from "../assets/images/home/allVariComponent/VariOne.png";
+import DashVarThree from "../assets/images/home/allVariComponent/VariThree.png";
+import DashVarTwo from "../assets/images/home/allVariComponent/VariTwo.png";
+import form1 from "../assets/images/home/allVariComponent/formElement.png";
+import form2 from "../assets/images/home/allVariComponent/formLayout.png";
 import au1 from "../assets/images/home/allcomponets/au1.webp";
 import au2 from "../assets/images/home/allcomponets/au2.webp";
 import au3 from "../assets/images/home/allcomponets/au3.webp";
@@ -6,10 +11,6 @@ import au5 from "../assets/images/home/allcomponets/au5.webp";
 import au6 from "../assets/images/home/allcomponets/au6.webp";
 import chart1 from "../assets/images/home/allcomponets/chart1.webp";
 import chart2 from "../assets/images/home/allcomponets/chart2.webp";
-import form1 from "../assets/images/home/allcomponets/form1.webp";
-import form2 from "../assets/images/home/allcomponets/form2.webp";
-import form3 from "../assets/images/home/allcomponets/form3.webp";
-import form4 from "../assets/images/home/allcomponets/form4.webp";
 import mess1 from "../assets/images/home/allcomponets/message1.webp";
 import mess2 from "../assets/images/home/allcomponets/message2.webp";
 import page1 from "../assets/images/home/allcomponets/page1.webp";
@@ -26,8 +27,6 @@ import page6 from "../assets/images/home/allcomponets/page6.webp";
 import page7 from "../assets/images/home/allcomponets/page7.webp";
 import page8 from "../assets/images/home/allcomponets/page8.webp";
 import page9 from "../assets/images/home/allcomponets/page9.webp";
-import task1 from "../assets/images/home/allcomponets/task1.webp";
-import task2 from "../assets/images/home/allcomponets/task2.webp";
 import ui1 from "../assets/images/home/allcomponets/ui1.webp";
 import ui10 from "../assets/images/home/allcomponets/ui10.webp";
 import ui11 from "../assets/images/home/allcomponets/ui11.webp";
@@ -49,12 +48,6 @@ import ui6 from "../assets/images/home/allcomponets/ui6.webp";
 import ui7 from "../assets/images/home/allcomponets/ui7.webp";
 import ui8 from "../assets/images/home/allcomponets/ui8.webp";
 import ui9 from "../assets/images/home/allcomponets/ui9.webp";
-import DashVarOne from "../assets/images/home/allcomponets/vari1.webp";
-import DashVarTwo from "../assets/images/home/allcomponets/vari2.webp";
-import DashVarThree from "../assets/images/home/allcomponets/vari3.webp";
-import DashVarFour from "../assets/images/home/allcomponets/vari4.webp";
-import DashVarFive from "../assets/images/home/allcomponets/vari5.webp";
-
 
 export const allPageComponent = [
   {
@@ -64,52 +57,21 @@ export const allPageComponent = [
     imageCard: [
       {
         imageUrl: DashVarOne,
-        link: "/boom",
+        link: "https://nur-admin-dashboard.vercel.app/",
         imgName: "E-Commerce",
         imgTitle: "Dashboard 01",
       },
       {
         imageUrl: DashVarTwo,
-        link: "#",
+        link: "https://nur-admin-dashboard.vercel.app/",
         imgName: "E-Commerce",
         imgTitle: "Dashboard 02",
       },
       {
         imageUrl: DashVarThree,
-        link: "#",
+        link: "https://nur-admin-dashboard.vercel.app/",
         imgName: "E-Commerce",
         imgTitle: "Dashboard 03",
-      },
-      {
-        imageUrl: DashVarFour,
-        link: "#",
-        imgName: "E-Commerce",
-        imgTitle: "Dashboard 04",
-      },
-      {
-        imageUrl: DashVarFive,
-        link: "#",
-        imgName: "E-Commerce",
-        imgTitle: "Dashboard 05",
-      },
-    ],
-  },
-  {
-    title: "Task",
-    pOne: "Dashboard",
-    pTwo: "Task",
-    imageCard: [
-      {
-        imageUrl: task1,
-        link: "#",
-        imgName: "Task List",
-        imgTitle: "3 Components",
-      },
-      {
-        imageUrl: task2,
-        link: "#",
-        imgName: "Kanban",
-        imgTitle: "3 Components",
       },
     ],
   },
@@ -120,28 +82,17 @@ export const allPageComponent = [
     imageCard: [
       {
         imageUrl: form1,
-        link: "#",
+        link: "https://nur-admin-dashboard.vercel.app/form-element",
         imgName: "Form Elements",
         imgTitle: "7 Components",
       },
       {
         imageUrl: form2,
-        link: "#",
-        imgName: "Pro Form Elements",
+        link: "https://nur-admin-dashboard.vercel.app/form-layout",
+        imgName: "Form Layout",
         imgTitle: "3 Components",
       },
-      {
-        imageUrl: form3,
-        link: "#",
-        imgName: "Form Layout",
-        imgTitle: "2 Components",
-      },
-      {
-        imageUrl: form4,
-        link: "#",
-        imgName: "Pro Form Layout",
-        imgTitle: "2 Components",
-      },
+      
     ],
   },
   {
@@ -404,7 +355,6 @@ export const allPageComponent = [
         imgName: "Spinners",
         imgTitle: "2 Components",
       },
-      
     ],
   },
   {
