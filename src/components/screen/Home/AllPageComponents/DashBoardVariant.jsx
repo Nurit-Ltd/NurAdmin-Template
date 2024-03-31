@@ -42,7 +42,7 @@ const DashBoardVariant = () => {
                     <img
                       src={imgData.imageUrl}
                       alt={`variant-${index + 1}`}
-                      className="rounded-[10px] border border-grayBorderVar w-full h-full object-fill"
+                      className="rounded-[10px] border border-grayBorderVar w-full h-full  object-fill"
                     />
                   </div>
                   <h4 className="mt-4 font-medium text-secondary group-hover:text-primary ">
