@@ -1,40 +1,34 @@
+import au4 from "../assets/images/home/allVariComponent/2step.png";
+import ui from "../assets/images/home/allVariComponent/According.png";
 import DashVarOne from "../assets/images/home/allVariComponent/VariOne.png";
 import DashVarThree from "../assets/images/home/allVariComponent/VariThree.png";
 import DashVarTwo from "../assets/images/home/allVariComponent/VariTwo.png";
 import chart2 from "../assets/images/home/allVariComponent/advaChart.png";
+import ui1 from "../assets/images/home/allVariComponent/alerts.png";
+import ui2 from "../assets/images/home/allVariComponent/avatar.png";
+import ui3 from "../assets/images/home/allVariComponent/badge.png";
 import chart1 from "../assets/images/home/allVariComponent/basicChart.png";
+import ui4 from "../assets/images/home/allVariComponent/breadcrumb.png";
+import ui5 from "../assets/images/home/allVariComponent/button.png";
+import ui6 from "../assets/images/home/allVariComponent/buttonGroup.png";
+import ui7 from "../assets/images/home/allVariComponent/card.png";
+import ui8 from "../assets/images/home/allVariComponent/dropdown.png";
 import form1 from "../assets/images/home/allVariComponent/formElement.png";
 import form2 from "../assets/images/home/allVariComponent/formLayout.png";
+import ui9 from "../assets/images/home/allVariComponent/list.png";
+import ui10 from "../assets/images/home/allVariComponent/modal.png";
+import ui11 from "../assets/images/home/allVariComponent/notifications.png";
+import ui12 from "../assets/images/home/allVariComponent/pagination.png";
+import au3 from "../assets/images/home/allVariComponent/reset.png";
 import page1 from "../assets/images/home/allVariComponent/setting.png";
+import au1 from "../assets/images/home/allVariComponent/singup.png";
+import au2 from "../assets/images/home/allVariComponent/singupp.png";
+import ui13 from "../assets/images/home/allVariComponent/spinners.png";
+import ui14 from "../assets/images/home/allVariComponent/tabs.png";
 import page2 from "../assets/images/home/allVariComponent/teams.png";
 import page3 from "../assets/images/home/allVariComponent/termsConditions.png";
-import au1 from "../assets/images/home/allcomponets/au1.webp";
-import au2 from "../assets/images/home/allcomponets/au2.webp";
-import au3 from "../assets/images/home/allcomponets/au3.webp";
-import au4 from "../assets/images/home/allcomponets/au4.webp";
-import au5 from "../assets/images/home/allcomponets/au5.webp";
-import au6 from "../assets/images/home/allcomponets/au6.webp";
-import ui1 from "../assets/images/home/allcomponets/ui1.webp";
-import ui10 from "../assets/images/home/allcomponets/ui10.webp";
-import ui11 from "../assets/images/home/allcomponets/ui11.webp";
-import ui12 from "../assets/images/home/allcomponets/ui12.webp";
-import ui13 from "../assets/images/home/allcomponets/ui13.webp";
-import ui14 from "../assets/images/home/allcomponets/ui14.webp";
-import ui15 from "../assets/images/home/allcomponets/ui15.webp";
-import ui16 from "../assets/images/home/allcomponets/ui16.webp";
-import ui17 from "../assets/images/home/allcomponets/ui17.webp";
-import ui18 from "../assets/images/home/allcomponets/ui18.webp";
-import ui19 from "../assets/images/home/allcomponets/ui19.webp";
-import ui2 from "../assets/images/home/allcomponets/ui2.webp";
-import ui20 from "../assets/images/home/allcomponets/ui20.webp";
-import ui21 from "../assets/images/home/allcomponets/ui21.webp";
-import ui3 from "../assets/images/home/allcomponets/ui3.webp";
-import ui4 from "../assets/images/home/allcomponets/ui4.webp";
-import ui5 from "../assets/images/home/allcomponets/ui5.webp";
-import ui6 from "../assets/images/home/allcomponets/ui6.webp";
-import ui7 from "../assets/images/home/allcomponets/ui7.webp";
-import ui8 from "../assets/images/home/allcomponets/ui8.webp";
-import ui9 from "../assets/images/home/allcomponets/ui9.webp";
+import ui15 from "../assets/images/home/allVariComponent/tooltips.png";
+
 
 export const allPageComponent = [
   {
@@ -131,131 +125,102 @@ export const allPageComponent = [
     pTwo: "UI Elements",
     imageCard: [
       {
+        imageUrl: ui,
+        link: "https://nur-admin-dashboard.vercel.app/accordions",
+        imgName: "Accordion",
+        imgTitle: "2 Components",
+      },
+      {
         imageUrl: ui1,
-        link: "#",
+        link: "https://nur-admin-dashboard.vercel.app/alerts",
         imgName: "Alerts",
         imgTitle: "3 Components",
       },
       {
         imageUrl: ui2,
-        link: "#",
-        imgName: "Buttons",
-        imgTitle: "2 Components",
-      },
-      {
-        imageUrl: ui3,
-        link: "#",
-        imgName: "Buttons Group",
-        imgTitle: "3 Components",
-      },
-      {
-        imageUrl: ui4,
-        link: "#",
-        imgName: "Badge",
-        imgTitle: "4 Components",
-      },
-      {
-        imageUrl: ui5,
-        link: "#",
-        imgName: "Breadcrumb",
-        imgTitle: "3 Components",
-      },
-      {
-        imageUrl: ui6,
-        link: "#",
-        imgName: "Cards",
-        imgTitle: "3 Components",
-      },
-      {
-        imageUrl: ui7,
-        link: "#",
-        imgName: "Dropdowns",
-        imgTitle: "3 Components",
-      },
-      {
-        imageUrl: ui8,
-        link: "#",
-        imgName: "Modals",
-        imgTitle: "3 Components",
-      },
-      {
-        imageUrl: ui9,
-        link: "#",
-        imgName: "Tabs",
-        imgTitle: "3 Components",
-      },
-      {
-        imageUrl: ui10,
-        link: "#",
-        imgName: "Tooltips",
-        imgTitle: "2 Components",
-      },
-      {
-        imageUrl: ui11,
-        link: "#",
-        imgName: "Popovers",
-        imgTitle: "2 Components",
-      },
-      {
-        imageUrl: ui12,
-        link: "#",
-        imgName: "Accordion",
-        imgTitle: "3 Components",
-      },
-      {
-        imageUrl: ui13,
-        link: "#",
-        imgName: "Notification",
-        imgTitle: "3 Components",
-      },
-      {
-        imageUrl: ui14,
-        link: "#",
-        imgName: "Pagination",
-        imgTitle: "3 Components",
-      },
-      {
-        imageUrl: ui15,
-        link: "#",
-        imgName: "Progress",
-        imgTitle: "3 Components",
-      },
-      {
-        imageUrl: ui16,
-        link: "#",
-        imgName: "Carousel",
-        imgTitle: "3 Components",
-      },
-      {
-        imageUrl: ui17,
-        link: "#",
-        imgName: "Images",
-        imgTitle: "3 Components",
-      },
-      {
-        imageUrl: ui18,
-        link: "#",
-        imgName: "Videos",
-        imgTitle: "3 Components",
-      },
-      {
-        imageUrl: ui19,
-        link: "#",
+        link: "https://nur-admin-dashboard.vercel.app/avatars",
         imgName: "Avatars",
         imgTitle: "2 Components",
       },
       {
-        imageUrl: ui20,
-        link: "#",
+        imageUrl: ui3,
+        link: "https://nur-admin-dashboard.vercel.app/badge",
+        imgName: "Badge",
+        imgTitle: "4 Components",
+      },
+      {
+        imageUrl: ui4,
+        link: "https://nur-admin-dashboard.vercel.app/breadcrumb",
+        imgName: "Breadcrumb",
+        imgTitle: "4 Components",
+      },
+      {
+        imageUrl: ui5,
+        link: "https://nur-admin-dashboard.vercel.app/buttons",
+        imgName: "Buttons",
+        imgTitle: "3 Components",
+      },
+      {
+        imageUrl: ui6,
+        link: "https://nur-admin-dashboard.vercel.app/button-group",
+        imgName: "Buttons Group",
+        imgTitle: "2 Components",
+      },
+      {
+        imageUrl: ui7,
+        link: "https://nur-admin-dashboard.vercel.app/cards",
+        imgName: "Cards",
+        imgTitle: "3 Components",
+      },
+      {
+        imageUrl: ui8,
+        link: "https://nur-admin-dashboard.vercel.app/dropdowns",
+        imgName: "Dropdowns",
+        imgTitle: "3 Components",
+      },
+      {
+        imageUrl: ui9,
+        link: "https://nur-admin-dashboard.vercel.app/list",
         imgName: "List",
         imgTitle: "3 Components",
       },
       {
-        imageUrl: ui21,
-        link: "#",
+        imageUrl: ui10,
+        link: "https://nur-admin-dashboard.vercel.app/modals",
+        imgName: "Modals",
+        imgTitle: "3 Components",
+      },
+      {
+        imageUrl: ui11,
+        link: "https://nur-admin-dashboard.vercel.app/notifications",
+        imgName: "Notification",
+        imgTitle: "4 Components",
+      },
+      {
+        imageUrl: ui12,
+        link: "https://nur-admin-dashboard.vercel.app/pagination",
+        imgName: "Pagination",
+        imgTitle: "3 Components",
+      },
+      {
+        imageUrl: ui13,
+        link: "https://nur-admin-dashboard.vercel.app/spinners",
         imgName: "Spinners",
+        imgTitle: "3 Components",
+      },
+      {
+        imageUrl: ui14,
+        link: "https://nur-admin-dashboard.vercel.app/tabs",
+        imgName: "Tabs",
         imgTitle: "2 Components",
       },
+      {
+        imageUrl: ui15,
+        link: "https://nur-admin-dashboard.vercel.app/tooltips",
+        imgName: "Tooltips",
+        imgTitle: "2 Components",
+      },
+      
     ],
   },
   {
@@ -265,40 +230,30 @@ export const allPageComponent = [
     imageCard: [
       {
         imageUrl: au1,
-        link: "#",
+        link: "https://nur-admin-dashboard.vercel.app/sign-in",
         imgName: "Signing",
         imgTitle: "1 Components",
       },
       {
         imageUrl: au2,
-        link: "#",
+        link: "https://nur-admin-dashboard.vercel.app/sign-up",
         imgName: "Signup",
         imgTitle: "1 Components",
       },
       {
         imageUrl: au3,
-        link: "#",
+        link: "https://nur-admin-dashboard.vercel.app/reset-password",
         imgName: "Reset Password",
         imgTitle: "1 Components",
       },
+     
       {
         imageUrl: au4,
-        link: "#",
-        imgName: "Coming Soon",
-        imgTitle: "1 Components",
-      },
-      {
-        imageUrl: au5,
-        link: "#",
+        link: "https://nur-admin-dashboard.vercel.app/two-step-verification",
         imgName: "2 Step Verification",
         imgTitle: "1 Components",
       },
-      {
-        imageUrl: au6,
-        link: "#",
-        imgName: "Under Maintenance",
-        imgTitle: "1 Components",
-      },
+     
     ],
   },
 ];
