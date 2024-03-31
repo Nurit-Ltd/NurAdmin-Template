@@ -1,32 +1,19 @@
 import DashVarOne from "../assets/images/home/allVariComponent/VariOne.png";
 import DashVarThree from "../assets/images/home/allVariComponent/VariThree.png";
 import DashVarTwo from "../assets/images/home/allVariComponent/VariTwo.png";
+import chart2 from "../assets/images/home/allVariComponent/advaChart.png";
+import chart1 from "../assets/images/home/allVariComponent/basicChart.png";
 import form1 from "../assets/images/home/allVariComponent/formElement.png";
 import form2 from "../assets/images/home/allVariComponent/formLayout.png";
+import page1 from "../assets/images/home/allVariComponent/setting.png";
+import page2 from "../assets/images/home/allVariComponent/teams.png";
+import page3 from "../assets/images/home/allVariComponent/termsConditions.png";
 import au1 from "../assets/images/home/allcomponets/au1.webp";
 import au2 from "../assets/images/home/allcomponets/au2.webp";
 import au3 from "../assets/images/home/allcomponets/au3.webp";
 import au4 from "../assets/images/home/allcomponets/au4.webp";
 import au5 from "../assets/images/home/allcomponets/au5.webp";
 import au6 from "../assets/images/home/allcomponets/au6.webp";
-import chart1 from "../assets/images/home/allcomponets/chart1.webp";
-import chart2 from "../assets/images/home/allcomponets/chart2.webp";
-import mess1 from "../assets/images/home/allcomponets/message1.webp";
-import mess2 from "../assets/images/home/allcomponets/message2.webp";
-import page1 from "../assets/images/home/allcomponets/page1.webp";
-import page10 from "../assets/images/home/allcomponets/page10.webp";
-import page11 from "../assets/images/home/allcomponets/page11.webp";
-import page12 from "../assets/images/home/allcomponets/page12.webp";
-import page13 from "../assets/images/home/allcomponets/page13.webp";
-import page14 from "../assets/images/home/allcomponets/page14.webp";
-import page2 from "../assets/images/home/allcomponets/page2.webp";
-import page3 from "../assets/images/home/allcomponets/page3.webp";
-import page4 from "../assets/images/home/allcomponets/page4.webp";
-import page5 from "../assets/images/home/allcomponets/page5.webp";
-import page6 from "../assets/images/home/allcomponets/page6.webp";
-import page7 from "../assets/images/home/allcomponets/page7.webp";
-import page8 from "../assets/images/home/allcomponets/page8.webp";
-import page9 from "../assets/images/home/allcomponets/page9.webp";
 import ui1 from "../assets/images/home/allcomponets/ui1.webp";
 import ui10 from "../assets/images/home/allcomponets/ui10.webp";
 import ui11 from "../assets/images/home/allcomponets/ui11.webp";
@@ -92,7 +79,6 @@ export const allPageComponent = [
         imgName: "Form Layout",
         imgTitle: "3 Components",
       },
-      
     ],
   },
   {
@@ -102,105 +88,20 @@ export const allPageComponent = [
     imageCard: [
       {
         imageUrl: page1,
-        link: "#",
+        link: "https://nur-admin-dashboard.vercel.app/setting",
         imgName: "Settings",
         imgTitle: "1 Components",
       },
       {
         imageUrl: page2,
-        link: "#",
-        imgName: "File Manager",
-        imgTitle: "1 Components",
-      },
-      {
-        imageUrl: page3,
-        link: "#",
-        imgName: "Data Tables",
-        imgTitle: "1 Components",
-      },
-      {
-        imageUrl: page4,
-        link: "#",
-        imgName: "Pricing Tables",
-        imgTitle: "1 Components",
-      },
-      {
-        imageUrl: page5,
-        link: "#",
-        imgName: "Error Page",
-        imgTitle: "1 Components",
-      },
-      {
-        imageUrl: page6,
-        link: "#",
-        imgName: "Mail Success",
-        imgTitle: "1 Components",
-      },
-      {
-        imageUrl: page7,
-        link: "#",
-        imgName: "Calendar",
-        imgTitle: "1 Components",
-      },
-      {
-        imageUrl: page8,
-        link: "#",
-        imgName: "Profile",
-        imgTitle: "1 Components",
-      },
-      {
-        imageUrl: page9,
-        link: "#",
-        imgName: "Invoice",
-        imgTitle: "1 Components",
-      },
-      {
-        imageUrl: page10,
-        link: "#",
-        imgName: "Table",
-        imgTitle: "3 Components",
-      },
-      {
-        imageUrl: page11,
-        link: "#",
-        imgName: "Pro Table",
-        imgTitle: "2 Components",
-      },
-      {
-        imageUrl: page12,
-        link: "#",
-        imgName: "Faq's",
-        imgTitle: "1 Components",
-      },
-      {
-        imageUrl: page13,
-        link: "#",
+        link: "https://nur-admin-dashboard.vercel.app/teams",
         imgName: "Teams",
         imgTitle: "2 Components",
       },
       {
-        imageUrl: page14,
-        link: "#",
+        imageUrl: page3,
+        link: "https://nur-admin-dashboard.vercel.app/terms-condition",
         imgName: "Terms & Conditions",
-        imgTitle: "1 Components",
-      },
-    ],
-  },
-  {
-    title: "Messages",
-    pOne: "Dashboard",
-    pTwo: "Messages",
-    imageCard: [
-      {
-        imageUrl: mess1,
-        link: "#",
-        imgName: "Messages",
-        imgTitle: "1 Components",
-      },
-      {
-        imageUrl: mess2,
-        link: "#",
-        imgName: "Inbox",
         imgTitle: "1 Components",
       },
     ],
@@ -212,13 +113,13 @@ export const allPageComponent = [
     imageCard: [
       {
         imageUrl: chart1,
-        link: "#",
+        link: "https://nur-admin-dashboard.vercel.app/charts",
         imgName: "Basic Charts",
         imgTitle: "3 Components",
       },
       {
         imageUrl: chart2,
-        link: "#",
+        link: "https://nur-admin-dashboard.vercel.app/charts",
         imgName: "Advanced Charts",
         imgTitle: "5 Components",
       },
