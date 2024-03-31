@@ -37,14 +37,29 @@ const FrontEndToolAll = () => {
                 </div>
 
                 <div>
-                  <h3 className="mb-2.5 text-2xl font-semibold text-secondary">
+                  <h3
+                    className={`mb-2.5 text-2xl font-semibold text-secondary ${
+                      index === 0 || index === frontEndToolAll.length - 1
+                        ? "opacity-50"
+                        : ""
+                    }`}
+                  >
                     {tool.name}
                   </h3>
                   <p className="mb-7.5 text-base">{tool.description}</p>
                 </div>
               </div>
 
-              <button className="flex h-[3.125rem] w-full items-center justify-center gap-2 rounded-[7px] bg-secondary px-6 text-base font-medium text-white duration-300 hover:bg-primary">
+              {/* <button className="flex h-[3.125rem] w-full items-center justify-center gap-2 rounded-[7px] bg-secondary px-6 text-base font-medium text-white duration-300 hover:bg-primary">
+                {tool.buttonLabel} <BsArrowRight size={20} />
+              </button> */}
+              <button
+                className={`flex h-[3.125rem] w-full items-center justify-center gap-2 rounded-[7px] bg-secondary px-6 text-base font-medium text-white duration-300 hover:bg-primary ${
+                  index === 0 || index === frontEndToolAll.length - 1
+                    ? "opacity-50 pointer-events-none"
+                    : ""
+                }`}
+              >
                 {tool.buttonLabel} <BsArrowRight size={20} />
               </button>
             </div>

@@ -7,7 +7,7 @@ export const frontEndToolAll =[
   {
     name: "HTML + Tailwind",
     description:
-      "NurAdmin HTML: Built-with Tailwind CSS, HTML and Alpine.js",
+      "coming soon...",
     buttonLabel: "Explore",
     icon: TechHtmlSvg ,
   },
@@ -27,7 +27,7 @@ export const frontEndToolAll =[
   },
   {
     name: "Vue.js + Tailwind",
-    description: "NurAdmin Vue: Built-with Tailwind CSS and Vue.js",
+    description: "coming soon...",
     buttonLabel: "Explore",
     icon: TechVue ,
   },
