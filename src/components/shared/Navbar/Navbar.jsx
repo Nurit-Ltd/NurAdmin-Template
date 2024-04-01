@@ -56,7 +56,7 @@ const Navbar = () => {
         >
           <div className="flex w-full items-center justify-between xl:w-2/12 2xl:w-2/12">
             <a href="/" className="flex gap-3 items-center w-[172px] h-8">
-              <img src={logo} alt="logo" className="" />
+              <img src={logo} alt="logo" width={100} height={100} />
               <span className="text-28xl font-semibold text-black">
                 NurAdmin
               </span>

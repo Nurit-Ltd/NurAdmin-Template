@@ -11,7 +11,7 @@ const FooterAbout = () => {
           href="/"
           className="flex gap-3 items-center mb-[1.875rem] w-[172px] h-8"
         >
-          <img src={logoUrl} alt="logo" className="" />
+          <img src={logoUrl} alt="logo" width={100} height={100} />
           <span className="text-28xl font-semibold text-black">NurAdmin</span>
         </a>
 

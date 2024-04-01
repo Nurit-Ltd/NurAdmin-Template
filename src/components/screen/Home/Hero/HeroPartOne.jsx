@@ -23,12 +23,14 @@ const HeroPartOne = () => {
           <span className="text-primary"> Admin Dashboard Template</span>
         </h1>
         <div className="mb-8.5 md:text-lg">
-          <p>NurAdmin is a Tailwind CSS-based Admin Dashboard Template that
-          provides developers with everything they need to create feature-rich
-          back-ends, dashboards, and admin panels for web projects. Empowering
-          developers with essential UI components, elements, and pages required
-          to build a complete Dashboard or Admin panel – Now available for HTML,
-          React, Next.js, and Vue!</p>
+          <p>
+            NurAdmin is a Tailwind CSS-based Admin Dashboard Template that
+            provides developers with everything they need to create feature-rich
+            back-ends, dashboards, and admin panels for web projects. Empowering
+            developers with essential UI components, elements, and pages
+            required to build a complete Dashboard or Admin panel – Now
+            available for HTML, React, Next.js, and Vue!
+          </p>
         </div>
         <div>
           <p className="mb-5 text-base font-medium text-secondary opacity-100">
