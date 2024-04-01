@@ -1,5 +1,5 @@
-import heroOne from "../../../../assets/images/home/adminLeft.png";
-import heroTwo from "../../../../assets/images/home/adminMiddle.png";
+import heroOne from "../../../../assets/images/home/adminLeft.webp";
+import heroTwo from "../../../../assets/images/home/adminMiddle.webp";
 import heroThree from "../../../../assets/images/home/hero-03.webp";
 import BlBoomBigSvg from "../../../../components/common/BlBoomBigSvg";
 import BlBoomSvg from "../../../../components/common/BlBoomSvg";

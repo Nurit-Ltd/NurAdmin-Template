@@ -20,6 +20,7 @@ html {
     url("/font/euclid-circular-a/EuclidCircularAMedium.ttf"),
     url("/font/euclid-circular-a/EuclidCircularARegular.ttf"),
     url("/font/euclid-circular-a/EuclidCircularASemiBold.ttf");
+  font-display: swap;
 }
 body {
   max-width: 1920px;

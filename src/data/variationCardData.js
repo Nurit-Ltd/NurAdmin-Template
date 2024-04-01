@@ -1,7 +1,7 @@
-import variFour from "../assets/images/home/variations/VariFour.png";
-import variOne from "../assets/images/home/variations/VariOne.png";
-import variThree from "../assets/images/home/variations/VariThree.png";
-import variTwo from "../assets/images/home/variations/VariTwo.png";
+import variFour from "../assets/images/home/variations/VariFour.webp";
+import variOne from "../assets/images/home/variations/VariOne.webp";
+import variThree from "../assets/images/home/variations/VariThree.webp";
+import variTwo from "../assets/images/home/variations/VariTwo.webp";
 
 
 export const variationCardData = [
