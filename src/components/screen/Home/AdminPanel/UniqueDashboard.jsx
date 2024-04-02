@@ -16,20 +16,17 @@ const UniqueDashboard = () => {
         <div className="flex w-full flex-wrap gap-x-6 gap-y-[26px]">
           {uniqueDashData.map((admin) => (
             <div
-            data-aos="zoom-in-left"
+              data-aos="zoom-in-left"
               key={admin.id}
               className={`animate_right w-full max-w-[200px] xl:max-w-[248px] ${
-                admin.id === 3 ? "mt-[-1.625rem]" : ""
+                admin.id === 3 ? "mt-[-26px]" : ""
               }`}
             >
-              <div
-                className={`relative aspect-[${admin.aspectRatio}] w-full max-w-[200px] xl:max-w-[248px]`}
+             <div
+                className={`relative aspect-[${admin.aspectRatio}] w-full max-w-[200px] xl:max-w-[248px] bg-white p-4 rounded-[15px]`}
+                style={{ height: admin.id === 2 || admin.id === 3 ? "240px" : "200px" }}
               >
-                <img
-                  src={admin.imageUrl}
-                  alt={admin.altText}
-                  className="rounded-[15px] shadow-10"
-                />
+                <img src={admin.imageUrl} alt={admin.altText} className="w-full h-full object-contain" />
               </div>
             </div>
           ))}

@@ -1,7 +1,7 @@
-import adminOne from "../assets/images/home/adminpanel1.webp";
-import adminTwo from "../assets/images/home/alp2.webp";
-import adminThree from "../assets/images/home/alp3.webp";
-import adminFour from "../assets/images/home/alp4.webp";
+import adminFour from "../assets/images/home/variations/VariFour.webp";
+import adminOne from "../assets/images/home/variations/VariOne.webp";
+import adminThree from "../assets/images/home/variations/VariThree.webp";
+import adminTwo from "../assets/images/home/variations/VariTwo.webp";
 
 export const uniqueDashData = [
   {
