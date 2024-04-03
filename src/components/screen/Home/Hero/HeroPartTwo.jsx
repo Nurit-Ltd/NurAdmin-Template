@@ -10,6 +10,7 @@ const HeroPartTwo = () => {
     <>
       <div className="mx-auto mt-15 flex max-w-[70.25rem] items-end justify-center px-4 sm:px-8 xl:px-0">
         {/* left image */}
+
         <div
           data-aos="zoom-in-right"
           data-aos-duration="1500"
@@ -21,7 +22,9 @@ const HeroPartTwo = () => {
             className="w-full h-full object-fill rounded-tl-xl"
           />
         </div>
+
         {/* middle image */}
+
         <div
           data-aos="fade-up"
           data-aos-duration="1500"
@@ -33,7 +36,9 @@ const HeroPartTwo = () => {
             className="w-full h-full object-fill rounded-tl-xl rounded-tr-xl"
           />
         </div>
+
         {/* right image */}
+
         <div
           data-aos="zoom-in-left"
           data-aos-duration="1500"
@@ -58,7 +63,6 @@ const HeroPartTwo = () => {
       </div>
       <div className="absolute bottom-0 left-0 right-0 -z-10">
         <span>
-          
           <BlBoomBigSvg />
         </span>
       </div>
