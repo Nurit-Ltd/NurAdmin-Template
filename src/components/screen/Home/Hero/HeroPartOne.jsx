@@ -44,7 +44,7 @@ const HeroPartOne = () => {
               <li key={index}>
                 <p
                   className={`group relative flex h-[60px] w-[60px] cursor-pointer items-center justify-center rounded-full bg-white shadow-1 ${
-                    index === 4 || index === 5 || index === 7 || index === 8
+                  index === 2 || index === 4 || index === 5 || index === 7 || index === 8
                       ? "grayscale"
                       : ""
                   }`}

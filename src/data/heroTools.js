@@ -1,6 +1,6 @@
-import { SiNextdotjs } from "react-icons/si";
 import FigmaSvg from "../components/common/ToolsAndTechSvg/FigmaSvg";
 import MessengerSvg from "../components/common/ToolsAndTechSvg/MessengerSvg";
+import SiNextdotjs from "../components/common/ToolsAndTechSvg/NextSvgTool";
 import TechAlpineSvg from "../components/common/ToolsAndTechSvg/TechAlpineSvg";
 import TechHtmlSvg from "../components/common/ToolsAndTechSvg/TechHtmlSvg";
 import TechJavaScSvg from "../components/common/ToolsAndTechSvg/TechJavaScSvg";
