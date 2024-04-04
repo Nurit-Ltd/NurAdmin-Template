@@ -29,7 +29,7 @@ const HeroPartOne = () => {
             back-ends, dashboards, and admin panels for web projects. Empowering
             developers with essential UI components, elements, and pages
             required to build a complete Dashboard or Admin panel – Now
-            available for HTML, React, Next.js, and Vue!
+            available for React.
           </p>
         </div>
         <div>
@@ -42,8 +42,14 @@ const HeroPartOne = () => {
           >
             {tools.map((tool, index) => (
               <li key={index}>
-                <p className="group relative flex h-[60px] w-[60px] cursor-pointer items-center justify-center rounded-full bg-white shadow-1 opacity-100">
-                  <span className="absolute -top-10 hidden w-max rounded-md bg-secondary px-3.5 py-1.5 text-custom-sm text-white group-hover:block ">
+                <p
+                  className={`group relative flex h-[60px] w-[60px] cursor-pointer items-center justify-center rounded-full bg-white shadow-1 ${
+                    index === 4 || index === 5 || index === 7 || index === 8
+                      ? "grayscale"
+                      : ""
+                  }`}
+                >
+                  <span className="absolute -top-10 hidden w-max rounded-md bg-secondary px-3.5 py-1.5 text-custom-sm text-white group-hover:block">
                     {tool.name}
                     <span className="absolute -bottom-1 left-1/2 block h-2 w-2 -translate-x-1/2 rotate-45 bg-secondary"></span>
                   </span>
