@@ -13,30 +13,29 @@ const UniqueDashboard = () => {
 
       {/* right part*/}
       <div className="relative hidden w-full lg:block">
-        <div className="flex w-full flex-wrap gap-x-6 gap-y-[26px]">
+        <div className="flex w-full flex-wrap gap-x-[18px] gap-y-[20px]">
           {uniqueDashData.map((admin) => (
-            <div
-              data-aos="zoom-in-left"
-              key={admin.id}
-              className={`animate_right w-full max-w-[200px] xl:max-w-[248px] ${
-                admin.id === 3 ? "mt-[-26px]" : ""
-              }`}
-            >
-
-             <div className=" bg-white p-2 rounded-[15px]">
-             <div className="flex items-center gap-3 py-3">
-                 <div className="w-2 h-2 rounded-full bg-red-500"></div>
-                 <div className="w-2 h-2 rounded-full  bg-yellow-500"></div>
-                 <div className="w-2 h-2 rounded-full bg-green-500"></div>
-                 </div>
-             <div
-                className={`relative aspect-[${admin.aspectRatio}] w-full max-w-[200px] xl:max-w-[248px]  rounded-[15px]`}
-                style={{ height: admin.id === 2 || admin.id === 3 ? "240px" : "200px" }}
+            <div data-aos="zoom-in-left" key={admin.id}>
+              <div
+                className={`w-full bg-white p-2 rounded-[15px] h-[145px] max-w-[200px] xl:max-w-[248px] ${
+                  admin.id === 3 ? "mt-[15px]" : ""
+                }`}
               >
-                 
-                <img src={admin.imageUrl} alt={admin.altText} className="w-full h-full rounded-[10px] object-contain" />
+                <div className="flex items-center gap-3 py-2">
+                  <div className="w-2 h-2 rounded-full bg-red-500"></div>
+                  <div className="w-2 h-2 rounded-full  bg-yellow-500"></div>
+                  <div className="w-2 h-2 rounded-full bg-green-500"></div>
+                </div>
+                <div
+                  className={`relative aspect-[${admin.aspectRatio}] w-full max-w-[200px] xl:max-w-[248px] rounded-[15px]`}
+                >
+                  <img
+                    src={admin.imageUrl}
+                    alt={admin.altText}
+                    className="w-full h-full rounded-[10px] object-contain"
+                  />
+                </div>
               </div>
-             </div>
             </div>
           ))}
         </div>
