@@ -4,6 +4,7 @@ import { RxCross2 } from "react-icons/rx";
 import { VscMenu } from "react-icons/vsc";
 import logo from "../../../assets/nur-logo.svg";
 import { navItems } from "../../../data/navItems";
+import GithubRepoStar from "../GithubRepoStar";
 import NavDropdown from "./NavDropdown";
 import SmallNav from "./SmallNav";
 
@@ -101,11 +102,11 @@ const Navbar = () => {
                     <span className="text-xs text-grayText">Star</span>
                   </a>
                   <a
-                    href="#"
+                    href="https://api.github.com/repos/Nurit-Ltd/NurAdmin-Template"
                     className="w-[40px] h-full flex items-center justify-center"
                   >
                     <span className="text-xs text-grayText hover:text-primary duration-150">
-                      359
+                      <GithubRepoStar username="Nurit-Ltd" repo="NurAdmin-Template" />
                     </span>
                   </a>
                 </div>

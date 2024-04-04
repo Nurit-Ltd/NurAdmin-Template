@@ -39,7 +39,7 @@ const FrontEndToolAll = () => {
                 <div>
                   <h3
                     className={`mb-2.5 text-2xl font-semibold text-secondary ${
-                      index === 0 || index === frontEndToolAll.length - 1
+                      index === 0 || index === 2 || index === 3
                         ? "opacity-50"
                         : ""
                     }`}
@@ -55,7 +55,7 @@ const FrontEndToolAll = () => {
               </button> */}
               <button
                 className={`flex h-[3.125rem] w-full items-center justify-center gap-2 rounded-[7px] bg-secondary px-6 text-base font-medium text-white duration-300 hover:bg-primary ${
-                  index === 0 || index === frontEndToolAll.length - 1
+                  index === 0 || index === 2 || index === 3
                     ? "opacity-50 pointer-events-none"
                     : ""
                 }`}
