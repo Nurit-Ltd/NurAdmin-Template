@@ -8,7 +8,7 @@ import { basicPremiumData } from "../../../data/basicPremiumData";
 import TwoPartsTabs from "./TwoPartsTabs";
 
 const AllTabs = () => {
-  const [activeTab, setActiveTab] = useState(0);
+  const [activeTab, setActiveTab] = useState(1);
 
   const tabs = [
     {
@@ -45,20 +45,27 @@ const AllTabs = () => {
   return (
     <div>
       <div className="mt-10 flex w-full justify-center lg:mt-16">
-        <div data-aos="zoom-in" className="relative inline-flex flex-wrap items-center justify-center gap-3 rounded-lg bg-bgDownload p-2">
+        <div
+          data-aos="zoom-in"
+          className="relative inline-flex flex-wrap items-center justify-center gap-3 rounded-lg bg-bgDownload p-2"
+        >
           <div className="absolute -top-10 right-10 hidden lg:block">
             {/* <BestValueSvg /> */}
           </div>
           {tabs.map((tab, index) => (
             <button
-              
               key={index}
               className={`inline-flex h-[40px] items-center gap-3 rounded-lg px-[18px] font-semibold outline-none ${
                 activeTab === index
                   ? `${tab.bgColor} shadow-[0px_1px_2px_0px_rgba(166,175,195,0.35)]`
                   : "bg-transparent"
               }`}
-              onClick={() => setActiveTab(index)}
+              onClick={() => {
+                if (index !== 0 && index !== 2 && index !== 3) {
+                  setActiveTab(index);
+                }
+              }}
+              disabled={index === 0 || index === 2 || index === 3}
             >
               <span
                 className={`text-xl ${

@@ -22,12 +22,21 @@ const UniqueDashboard = () => {
                 admin.id === 3 ? "mt-[-26px]" : ""
               }`}
             >
+
+             <div className=" bg-white p-2 rounded-[15px]">
+             <div className="flex items-center gap-3 py-3">
+                 <div className="w-2 h-2 rounded-full bg-red-500"></div>
+                 <div className="w-2 h-2 rounded-full  bg-yellow-500"></div>
+                 <div className="w-2 h-2 rounded-full bg-green-500"></div>
+                 </div>
              <div
-                className={`relative aspect-[${admin.aspectRatio}] w-full max-w-[200px] xl:max-w-[248px] bg-white p-4 rounded-[15px]`}
+                className={`relative aspect-[${admin.aspectRatio}] w-full max-w-[200px] xl:max-w-[248px]  rounded-[15px]`}
                 style={{ height: admin.id === 2 || admin.id === 3 ? "240px" : "200px" }}
               >
-                <img src={admin.imageUrl} alt={admin.altText} className="w-full h-full object-contain" />
+                 
+                <img src={admin.imageUrl} alt={admin.altText} className="w-full h-full rounded-[10px] object-contain" />
               </div>
+             </div>
             </div>
           ))}
         </div>

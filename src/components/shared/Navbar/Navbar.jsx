@@ -93,7 +93,8 @@ const Navbar = () => {
               <div className="flex flex-col gap-3.5 lg:flex-row lg:items-center">
                 <div className="w-[104px] h-[28px] flex items-center border border-garyBorder rounded">
                   <a
-                    href="#"
+                    href="https://github.com/Nurit-Ltd/NurAdmin-Template"
+                    target="_blank"
                     className="w-[64px] h-full flex items-center gap-1 justify-center hover:bg-grayBg bg-bgLightGray text-grayText duration-200"
                   >
                     <span>
@@ -102,11 +103,15 @@ const Navbar = () => {
                     <span className="text-xs text-grayText">Star</span>
                   </a>
                   <a
-                    href="https://api.github.com/repos/Nurit-Ltd/NurAdmin-Template"
+                    href="https://github.com/Nurit-Ltd/NurAdmin-Template/stargazers"
+                    target="_blank"
                     className="w-[40px] h-full flex items-center justify-center"
                   >
-                    <span className="text-xs text-grayText hover:text-primary duration-150">
-                      <GithubRepoStar username="Nurit-Ltd" repo="NurAdmin-Template" />
+                    <span>
+                      <GithubRepoStar
+                        username="Nurit-Ltd"
+                        repo="NurAdmin-Template"
+                      />
                     </span>
                   </a>
                 </div>

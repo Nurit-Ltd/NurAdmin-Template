@@ -19,7 +19,7 @@ const GithubRepoStar = ({ username, repo }) => {
 
   return (
     <div>
-      <p>{stars}</p>
+      <p className="text-xs text-grayText hover:text-primary duration-150">{stars}</p>
     </div>
   );
 };
